@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff5b9b">
+<meta name="description" content="Megan’s Manicures — playful gel manicures, builder gel, nail extensions and custom nail art.">
+<title>Megan’s Manicures | Cute nails, happy vibes</title>
+<style>
+:root{--pink:#ff5b9b;--hot:#f72f83;--yellow:#ffe66d;--lilac:#b9a0ff;--mint:#a8f0d1;--ink:#29213b;--cream:#fffaf6;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:ui-rounded,"Arial Rounded MT Bold",system-ui,-apple-system,sans-serif;background:var(--cream);color:var(--ink);line-height:1.55}
+a{color:inherit}.wrap{width:min(1100px,92%);margin:auto}.topline{background:var(--ink);color:#fff;text-align:center;padding:9px 12px;font-size:.85rem;letter-spacing:.04em}
+header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 0}.brand{font-size:1.2rem;font-weight:950;letter-spacing:-.04em;text-decoration:none}.brand span{color:var(--hot)}nav{display:flex;gap:22px;align-items:center}nav a{text-decoration:none;font-weight:750;font-size:.92rem}.pill{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;background:var(--ink);color:white;text-decoration:none;font-weight:850;padding:13px 21px;cursor:pointer;box-shadow:4px 4px 0 var(--yellow);transition:transform .15s}.pill:hover{transform:translateY(-2px)}.pill.pink{background:var(--hot);box-shadow:4px 4px 0 var(--ink)}
+.hero{position:relative;overflow:hidden;border-radius:34px;background:var(--pink);padding:clamp(28px,6vw,72px);display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center;isolation:isolate}
+.eyebrow{font-weight:900;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}.hero h1{font-size:clamp(3rem,7vw,6.3rem);line-height:.91;letter-spacing:-.075em;margin:17px 0 22px;max-width:650px}.hero h1 em{font-family:Georgia,serif;font-weight:500}.hero p{font-size:1.1rem;max-width:470px}.hero-actions{display:flex;gap:15px;flex-wrap:wrap;margin-top:28px}.hero-art{position:relative;min-height:350px;display:grid;place-items:center}.sun{position:absolute;width:min(330px,75vw);aspect-ratio:1;border-radius:50%;background:var(--yellow);right:2%;top:3%}.nail-card{position:relative;z-index:1;background:#fff;border:4px solid var(--ink);border-radius:38px;padding:18px;transform:rotate(5deg);box-shadow:10px 10px 0 var(--ink);width:min(300px,85%)}.nail-card img{width:100%;height:300px;object-fit:cover;border-radius:24px;display:block}.sticker{position:absolute;z-index:2;background:var(--mint);border:3px solid var(--ink);border-radius:50%;width:104px;height:104px;display:grid;place-items:center;text-align:center;font-weight:1000;line-height:1.05;transform:rotate(-13deg);left:0;bottom:22px}.spark{position:absolute;font-size:3rem;font-weight:900}.spark.one{right:4%;top:0}.spark.two{left:3%;top:10%}
+.section{padding:82px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}.kicker{color:var(--hot);font-size:.8rem;text-transform:uppercase;font-weight:950;letter-spacing:.15em}.section h2{font-size:clamp(2.3rem,5vw,4rem);line-height:1;letter-spacing:-.06em;margin:12px 0}.section-head p{color:#665d73}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.service{padding:26px;border:2px solid var(--ink);border-radius:24px;background:#fff;display:flex;gap:18px;align-items:flex-start;box-shadow:5px 5px 0 var(--ink)}.service:nth-child(2){background:var(--yellow)}.service:nth-child(3){background:var(--lilac)}.service:nth-child(4){background:var(--mint)}.emoji{font-size:2.2rem}.service h3{margin:0 0 6px;font-size:1.25rem}.price{font-size:1.65rem;font-weight:1000;white-space:nowrap;margin-left:auto}.service p{margin:0;color:#51475f;font-size:.94rem}.extra{background:var(--ink);color:white;border-radius:22px;padding:23px 28px;margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:15px}.extra strong{font-size:1.2rem}.extra span{color:var(--yellow);font-weight:1000;font-size:1.5rem;white-space:nowrap}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery figure{margin:0;position:relative;border:3px solid var(--ink);border-radius:25px;overflow:hidden;box-shadow:5px 5px 0 var(--ink);background:#f5d5e3}.gallery img{width:100%;height:300px;object-fit:cover;display:block}.gallery figcaption{padding:12px 15px;font-weight:900;background:white}
+.booking{background:var(--lilac);border-radius:34px;padding:clamp(25px,5vw,55px);display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.booking h2{font-size:clamp(2.5rem,5vw,4rem);line-height:.98;letter-spacing:-.06em;margin:10px 0}.booking-copy p{max-width:340px}.note{font-size:.88rem;background:#fff9;padding:14px;border-radius:14px}.form{background:white;border:2px solid var(--ink);border-radius:24px;padding:24px;box-shadow:6px 6px 0 var(--ink)}label{display:block;font-size:.88rem;font-weight:850;margin:0 0 6px}input,select,textarea{font:inherit;width:100%;border:1.5px solid #cfc6da;border-radius:12px;padding:12px;margin-bottom:15px;background:#fff;color:var(--ink)}textarea{min-height:88px;resize:vertical}.form .pill{width:100%;font-size:1rem}.tiny{font-size:.78rem;color:#6b6179;margin:10px 0 0}.about{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about-card{background:var(--yellow);padding:34px;border:3px solid var(--ink);border-radius:30px;box-shadow:7px 7px 0 var(--ink)}.about-card .big{font-size:3rem}.about h2{font-size:clamp(2.2rem,5vw,3.8rem);line-height:1;letter-spacing:-.06em}footer{margin-top:80px;background:var(--ink);color:white;padding:35px 0}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.foot p{margin:4px 0;color:#d7cfe3;font-size:.9rem}.heart{color:var(--pink)}
+@media(max-width:760px){header{flex-wrap:wrap}nav{order:3;width:100%;justify-content:space-between;gap:10px}nav a{font-size:.82rem}.hero{grid-template-columns:1fr}.hero-art{min-height:320px}.services{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery img{height:220px}.booking,.about{grid-template-columns:1fr}.section{padding:60px 0}.extra{align-items:flex-start;flex-direction:column}.foot{align-items:flex-start;flex-direction:column}}
+@media(max-width:430px){.gallery{grid-template-columns:1fr}.gallery img{height:270px}.service{padding:20px;gap:12px}.price{font-size:1.35rem}.hero-art{min-height:285px}.nail-card img{height:240px}.sticker{width:84px;height:84px;font-size:.85rem}}
+</style>
+</head>
+<body>
+<div class="topline">✨ YOUR NEW FAVE NAIL SPOT · APPOINTMENTS BY REQUEST ✨</div>
+<header class="wrap">
+  <a class="brand" href="#home">MEGAN’S <span>MANICURES</span> 💅</a>
+  <nav aria-label="Main navigation">
+    <a href="#services">Services</a><a href="#gallery">Nail inspo</a><a href="#about">About</a><a href="#booking">Book</a>
+  </nav>
+  <a class="pill pink" href="#booking">Let’s get polished ↗</a>
+</header>
+<main>
+<section class="hero wrap" id="home">
+  <div>
+    <div class="eyebrow">A little color, a lot of personality ✷</div>
+    <h1>Nails that are <em>so</em> you.</h1>
+    <p>Fresh sets, fun details, and feel-good nail days. Come as you are and leave with nails that make you smile.</p>
+    <div class="hero-actions"><a class="pill" href="#booking">Book your nail day ✨</a><a class="pill pink" href="#services">See the menu</a></div>
+  </div>
+  <div class="hero-art" aria-label="Colorful manicure inspiration">
+    <div class="sun"></div><span class="spark one">✳</span><span class="spark two">✦</span>
+    <div class="nail-card"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=85" alt="Colorful manicure inspiration"></div>
+    <div class="sticker">GOOD<br>NAILS<br>GOOD MOOD!</div>
+  </div>
+</section>
+<section class="section wrap" id="services">
+  <div class="section-head"><div class="kicker">The good stuff</div><h2>The nail menu 💖</h2><p>Pick your base, add your vibe, and make it yours. Prices below are in USD.</p></div>
+  <div class="services">
+    <article class="service"><div class="emoji">💅</div><div><h3>Natural Gel Manicure</h3><p>A glossy gel finish for your natural nails.</p></div><div class="price">$25</div></article>
+    <article class="service"><div class="emoji">🌈</div><div><h3>Builder Gel Manicure</h3><p>Extra structure and a smooth, polished look.</p></div><div class="price">$30</div></article>
+    <article class="service"><div class="emoji">🪄</div><div><h3>Nail Extension Manicure</h3><p>Length and shape for your next favorite set.</p></div><div class="price">$35</div></article>
+    <article class="service"><div class="emoji">✨</div><div><h3>Builder Gel — Extended</h3><p>Builder gel service at your listed extended-service price.</p></div><div class="price">$40</div></article>
+  </div>
+  <div class="extra"><div><strong>Make it extra cute</strong><br><span style="font-size:.92rem;font-weight:500;color:#eee">Add a design to your set</span></div><span>+$5 / nail</span></div>
+  <p class="tiny">Please confirm the $30 and $40 builder gel options are named the way you want before publishing. Nail art is charged at $5 per nail as listed.</p>
+</section>
+<section class="section" id="gallery" style="background:#fff0f6">
+ <div class="wrap"><div class="section-head"><div class="kicker">Save for your next set</div><h2>Nail inspo board 💫</h2><p>Bright colors, glossy finishes, and little details worth showing off.</p></div>
+  <div class="gallery">
+   <figure><img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=700&q=85" alt="Nail art inspiration in soft colors" loading="lazy"><figcaption>Sweet & simple</figcaption></figure>
+   <figure><img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=700&q=85" alt="Manicure inspiration" loading="lazy"><figcaption>Glossy girl era</figcaption></figure>
+   <figure><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=700&q=85" alt="Colorful nail design inspiration" loading="lazy"><figcaption>Color me happy</figcaption></figure>
+  </div>
+  <p class="tiny" style="text-align:center;margin-top:18px">Gallery photos are inspiration images. Replace them with your own work as your portfolio grows.</p>
+ </div>
+</section>
+<section class="section wrap" id="booking">
+ <div class="booking">
+  <div class="booking-copy"><div class="kicker" style="color:#35294d">Your nail day awaits</div><h2>Let’s book<br>some happy.</h2><p>Send an appointment request with your preferred date and time. I’ll follow up to confirm availability.</p><div class="note">📍 <strong>In-home studio</strong><br>Exact address and appointment details will be shared after confirmation.</div></div>
+  <form class="form" id="bookingForm">
+   <label for="clientName">Your name *</label><input id="clientName" name="clientName" autocomplete="name" required placeholder="Name">
+   <label for="clientEmail">Email *</label><input id="clientEmail" name="clientEmail" type="email" autocomplete="email" required placeholder="you@example.com">
+   <label for="clientPhone">Phone (optional)</label><input id="clientPhone" name="clientPhone" type="tel" autocomplete="tel" placeholder="Best number to reach you">
+   <label for="service">Choose your service *</label><select id="service" name="service" required><option value="">Select a service</option><option>Natural Gel Manicure — $25</option><option>Builder Gel Manicure — $30</option><option>Nail Extension Manicure — $35</option><option>Builder Gel — Extended — $40</option><option>Not sure yet — let's chat</option></select>
+   <label for="date">Preferred date *</label><input id="date" name="date" type="date" required>
+   <label for="time">Preferred time *</label><select id="time" name="time" required><option value="">Choose a time</option><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Flexible</option></select>
+   <label for="design">Nail art / design notes</label><textarea id="design" name="design" placeholder="Colors, inspo, designs (add $5 per nail), etc."></textarea>
+   <button class="pill pink" type="submit">Prepare appointment request 💌</button>
+   <p class="tiny">This demo opens an email draft on your device. Add your business email in the website code before publishing.</p>
+   <p id="formMessage" role="status" class="tiny"></p>
+  </form>
+ </div>
+</section>
+<section class="section wrap" id="about">
+ <div class="about"><div><div class="kicker">Hey, lovely!</div><h2>A little studio with a lot of sparkle.</h2><p>Megan’s Manicures is all about fun nails, personal touches, and a relaxed in-home appointment experience. Bring your ideas — the colorful, the cute, and the totally you.</p><a class="pill" href="#booking">Request your appointment ✨</a></div><div class="about-card"><div class="big">💖 ✷ 💅</div><h3>Good vibes. Cute nails. You time.</h3><p>Appointments are by request and are not confirmed until you hear back. Please wait for confirmation before traveling to the studio.</p></div></div>
+</section>
+</main>
+<footer><div class="wrap foot"><div><a class="brand" href="#home" style="color:white">MEGAN’S <span>MANICURES</span> 💅</a><p>Bright nails for your bright side.</p></div><p>Made with <span class="heart">♥</span> and a little glitter.<br>© <span id="year"></span> Megan’s Manicures</p></div></footer>
+<script>
+const dateInput=document.getElementById('date');
+const localToday=new Date();dateInput.min=new Date(localToday.getTime()-localToday.getTimezoneOffset()*60000).toISOString().slice(0,10);
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const businessEmail='YOUR-EMAIL-HERE@example.com'; // CHANGE THIS to the email where you want booking requests sent
+ if(businessEmail==='YOUR-EMAIL-HERE@example.com'){
+   document.getElementById('formMessage').textContent='Setup needed: replace YOUR-EMAIL-HERE@example.com in the website code with your business email before using bookings.';
+   alert('The booking form needs your business email first. In index.html, replace YOUR-EMAIL-HERE@example.com with your email address, then publish again.');
+   return;
+ }
+ const f=new FormData(this);
+ const subject=encodeURIComponent('Megan’s Manicures appointment request — '+f.get('clientName'));
+ const body=encodeURIComponent(
+  'New appointment request for Megan’s Manicures\\n\\nName: '+f.get('clientName')+
+  '\\nEmail: '+f.get('clientEmail')+'\\nPhone: '+(f.get('clientPhone')||'Not provided')+
+  '\\nService: '+f.get('service')+'\\nPreferred date: '+f.get('date')+
+  '\\nPreferred time: '+f.get('time')+'\\nNail art / notes: '+(f.get('design')||'None')+
+  '\\n\\nPlease reply to confirm availability.'
+ );
+ window.location.href='mailto:'+businessEmail+'?subject='+subject+'&body='+body;
+ document.getElementById('formMessage').textContent='Your email app should open with your appointment request ready to send.';
+});
+</script>
+</body>
+</html>
